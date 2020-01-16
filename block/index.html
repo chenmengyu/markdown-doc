@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>区块元素 | Markdown学习文档</title>
+    <meta name="description" content="DOC">
+    <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/markdown-doc/assets/css/0.styles.6780354b.css" as="style"><link rel="preload" href="/markdown-doc/assets/js/app.1fec0948.js" as="script"><link rel="preload" href="/markdown-doc/assets/js/2.9a2b7fce.js" as="script"><link rel="preload" href="/markdown-doc/assets/js/9.177b86d6.js" as="script"><link rel="prefetch" href="/markdown-doc/assets/js/10.1dc4eb3c.js"><link rel="prefetch" href="/markdown-doc/assets/js/3.c9b06c44.js"><link rel="prefetch" href="/markdown-doc/assets/js/4.2b9dcd60.js"><link rel="prefetch" href="/markdown-doc/assets/js/5.2f28f9f5.js"><link rel="prefetch" href="/markdown-doc/assets/js/6.56df5293.js"><link rel="prefetch" href="/markdown-doc/assets/js/7.797cdaf7.js"><link rel="prefetch" href="/markdown-doc/assets/js/8.d6e8c96a.js">
+    <link rel="stylesheet" href="/markdown-doc/assets/css/0.styles.6780354b.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/markdown-doc/" class="home-link router-link-active"><!----> <span class="site-name">Markdown学习文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/markdown-doc/block/" class="nav-link router-link-exact-active router-link-active">块级元素</a></div><div class="nav-item"><a href="/markdown-doc/span/" class="nav-link">内联元素</a></div><div class="nav-item"><a href="/markdown-doc/other/" class="nav-link">其他</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/markdown-doc/block/" class="nav-link router-link-exact-active router-link-active">块级元素</a></div><div class="nav-item"><a href="/markdown-doc/span/" class="nav-link">内联元素</a></div><div class="nav-item"><a href="/markdown-doc/other/" class="nav-link">其他</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>区块元素</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/markdown-doc/block/#段落和换行" class="sidebar-link">段落和换行</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/markdown-doc/block/#标题" class="sidebar-link">标题</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/markdown-doc/block/#this-is-an-h2" class="sidebar-link">This is an H2</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/markdown-doc/block/#区块引用" class="sidebar-link">区块引用</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/markdown-doc/block/#这是一个标题。" class="sidebar-link">这是一个标题。</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/markdown-doc/block/#列表" class="sidebar-link">列表</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="区块元素"><a href="#区块元素" class="header-anchor">#</a> 区块元素</h1> <h2 id="段落和换行"><a href="#段落和换行" class="header-anchor">#</a> 段落和换行</h2> <p>一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行（空行的定义是显示上看起来像是空的，便会被视为空行。比方说，若某一行只包含空格和制表符，则该行也会被视为空行）。普通段落不该用空格或制表符来缩进。</p> <p>「由一个或多个连续的文本行组成」这句话其实暗示了 Markdown 允许段落内的强迫换行（插入换行符），这个特性和其他大部分的 text-to-HTML 格式不一样（包括 Movable Type 的「Convert Line Breaks」选项），其它的格式会把每个换行符都转成&lt;br /&gt;标签。</p> <p>如果你确实想要依赖 Markdown 来插入&lt;br /&gt;标签的话，在插入处先按入两个以上的空格然后回车。</p> <p>的确，需要多费点事（多加空格）来产生&lt;br /&gt;，但是简单地「每个换行都转换为&lt;br /&gt;」的方法在 Markdown 中并不适合， Markdown 中 email 式的 区块引用 和多段落的 列表 在使用换行来排版的时候，不但更好用，还更方便阅读。</p> <ul><li>特殊字符</li></ul> <table><thead><tr><th>字符</th> <th>十进制</th> <th>转移字符</th></tr></thead> <tbody><tr><td>&quot;</td> <td>&amp;#34;</td> <td>&amp;quot;</td></tr> <tr><td>&amp;</td> <td>&amp;#38;</td> <td>&amp;amp;</td></tr> <tr><td>&lt;</td> <td>&amp;#60;</td> <td>&amp;lt;</td></tr> <tr><td>&gt;</td> <td>&amp;#62;</td> <td>&amp;gt;</td></tr> <tr><td>不断开空格(non-breaking space)</td> <td>&amp;#160;</td> <td>&amp;nbsp;</td></tr></tbody></table> <h2 id="标题"><a href="#标题" class="header-anchor">#</a> 标题</h2> <p>Markdown 支持两种标题的语法，类 Setext 和类 atx 形式。</p> <p>类 Setext 形式是用底线的形式，利用 = （最高阶标题）和 - （第二阶标题），例如：</p> <pre><code>This is an H1
+=============
+
+This is an H2
+-------------
+</code></pre> <p>结果如下：</p> <h1 id="this-is-an-h1"><a href="#this-is-an-h1" class="header-anchor">#</a> This is an H1</h1> <h2 id="this-is-an-h2"><a href="#this-is-an-h2" class="header-anchor">#</a> This is an H2</h2> <h2 id="区块引用"><a href="#区块引用" class="header-anchor">#</a> 区块引用</h2> <p>Markdown 标记区块引用是使用类似 email 中用 &gt; 的引用方式。如果你还熟悉在 email 信件中的引言部分，你就知道怎么在 Markdown 文件中建立一个区块引用，那会看起来像是你自己先断好行，然后在每行的最前面加上 &gt; ：</p> <pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+&gt; consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+&gt; Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+&gt; 
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+&gt; id sem consectetuer libero luctus adipiscing.
+</code></pre> <p>结果如下：</p> <blockquote><p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p> <p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p></blockquote> <p>Markdown 也允许你偷懒只在整个段落的第一行最前面加上 &gt; ：</p> <pre><code>&gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
+
+&gt; Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.
+</code></pre> <p>结果如下：</p> <blockquote><p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p></blockquote> <blockquote><p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p></blockquote> <p>区块引用可以嵌套（例如：引用内的引用），只要根据层次加上不同数量的 &gt; ：</p> <pre><code>This is the first level of quoting.
+&gt;
+&gt; &gt; This is nested blockquote.
+&gt;
+&gt; Back to the first level.
+</code></pre> <p>结果如下：</p> <p>This is the first level of quoting.</p> <blockquote><blockquote><p>This is nested blockquote.</p></blockquote> <p>Back to the first level.</p></blockquote> <p>引用的区块内也可以使用其他的 Markdown 语法，包括标题、列表、代码区块等：</p> <pre><code>&gt; ## 这是一个标题。
+&gt; 
+&gt; 1.   这是第一行列表项。
+&gt; 2.   这是第二行列表项。
+&gt; 
+&gt; 给出一些例子代码：
+&gt; 
+&gt;     return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre> <p>结果如下：</p> <blockquote><h2 id="这是一个标题。"><a href="#这是一个标题。" class="header-anchor">#</a> 这是一个标题。</h2> <ol><li>这是第一行列表项。</li> <li>这是第二行列表项。</li></ol> <p>给出一些例子代码：</p> <pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre></blockquote> <p>任何像样的文本编辑器都能轻松地建立 email 型的引用。例如在 BBEdit 中，你可以选取文字后然后从选单中选择增加引用阶层。</p> <h2 id="列表"><a href="#列表" class="header-anchor">#</a> 列表</h2> <p>Markdown 支持有序列表和无序列表。</p> <p>无序列表使用星号、加号或是减号作为列表标记：</p> <pre><code>* Red
+* Green
+* Blue
+等同于：
++ Red
++ Green
++ Blue
+或：
+- Red
+- Green
+- Blue
+</code></pre> <p>结果：</p> <ul><li>Red</li> <li>Green</li> <li>Blue</li></ul> <p>有序列表则使用数字接着一个英文句点：</p> <pre><code>1. Bird
+2. McHale
+3. Parish
+</code></pre> <p>结果：</p> <ol><li>Bird</li> <li>McHale</li> <li>Parish</li></ol> <p>很重要的一点是，你在列表标记上使用的数字并不会影响输出的 HTML 结果，上面的列表所产生的 HTML 标记为：</p> <pre><code>&lt;ol&gt;
+&lt;li&gt;Bird&lt;/li&gt;
+&lt;li&gt;McHale&lt;/li&gt;
+&lt;li&gt;Parish&lt;/li&gt;
+&lt;/ol&gt;
+</code></pre> <p>如果你的列表标记写成：</p> <pre><code>1.  Bird
+1.  McHale
+1.  Parish
+</code></pre> <p>或甚至是：</p> <pre><code>3. Bird
+1. McHale
+8. Parish
+</code></pre> <p>你都会得到完全相同的 HTML 输出。重点在于，你可以让 Markdown 文件的列表数字和输出的结果相同，或是你懒一点，你可以完全不用在意数字的正确性。</p> <p>如果你使用懒惰的写法，建议第一个项目最好还是从 1. 开始，因为 Markdown 未来可能会支持有序列表的 start 属性。</p> <p>列表项目标记通常是放在最左边，但是其实也可以缩进，最多 3 个空格，项目标记后面则一定要接着至少一个空格或制表符。</p> <p>要让列表看起来更漂亮，你可以把内容用固定的缩进整理好：</p> <pre><code>*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+    Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+    viverra nec, fringilla in, laoreet vitae, risus.
+*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+    Suspendisse id sem consectetuer libero luctus adipiscing.
+</code></pre> <p>结果：</p> <ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.</li> <li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.</li></ul> <p>但是如果你懒，那也行：</p> <pre><code>*   Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.
+*   Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.
+</code></pre> <p>结果：</p> <ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.</li> <li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.</li></ul></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/markdown-doc/assets/js/app.1fec0948.js" defer></script><script src="/markdown-doc/assets/js/2.9a2b7fce.js" defer></script><script src="/markdown-doc/assets/js/9.177b86d6.js" defer></script>
+  </body>
+</html>
